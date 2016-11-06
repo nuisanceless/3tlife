@@ -1,0 +1,193 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:descendantFocusability="beforeDescendants"
+    >
+
+    <include
+        layout="@layout/view_staff_info_in_head"
+        />
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:layout_marginTop="14dp"
+        android:layout_marginBottom="14dp"
+        android:background="@drawable/edit_top_bottom"
+        android:gravity="center_vertical">
+
+        <TextView
+            android:id="@+id/text"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="14dp"
+            android:text="@string/rating"
+            android:textSize="16sp"
+            android:textColor="@color/dark_gray"/>
+
+        <RatingBar
+            android:id="@+id/ratingBar"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_toRightOf="@+id/text"
+            android:layout_marginLeft="14dp"
+            android:isIndicator="false"
+            style="@style/my_rating_bar.big"
+            android:rating="5"
+            android:layout_marginTop="1dp" />
+
+
+    </RelativeLayout>
+
+    <LinearLayout
+        android:focusable="true"
+        android:focusableInTouchMode="true"
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/edit_top"
+        android:padding="14dp">
+
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <RelativeLayout
+                android:layout_weight="1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+                <TextView
+                    android:id="@+id/smile_face"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/smile_face_selector"
+                    android:paddingLeft="5dp"
+                    android:text="@string/good"/>
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:paddingLeft="30dp"
+                android:layout_weight="1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+                <TextView
+                    android:id="@+id/cry_face"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/cry_face_selector"
+                    android:paddingLeft="5dp"
+                    android:text="@string/bad"/>
+            </RelativeLayout>
+
+        </LinearLayout>
+
+        <RelativeLayout
+            style="@style/comment_radio_group"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" >
+
+            <RadioButton
+                android:id="@+id/on_time"
+                android:text="@string/on_time"
+                android:layout_alignParentLeft="true"
+                style="@style/comment_radio_btn.left"/>
+            <RadioButton
+                android:id="@+id/no_on_time"
+                android:text="@string/no_on_time"
+                android:layout_alignParentRight="true"
+                style="@style/comment_radio_btn.right"/>
+
+        </RelativeLayout>
+
+        <RelativeLayout
+            style="@style/comment_radio_group"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" >
+
+            <RadioButton
+                android:id="@+id/earnest"
+                android:text="@string/earnest"
+                android:layout_alignParentLeft="true"
+                style="@style/comment_radio_btn.left"/>
+            <RadioButton
+                android:id="@+id/no_earnest"
+                android:text="@string/no_earnest"
+                android:layout_alignParentRight="true"
+                style="@style/comment_radio_btn.right"/>
+
+        </RelativeLayout>
+
+        <RelativeLayout
+            style="@style/comment_radio_group"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" >
+
+            <RadioButton
+                android:id="@+id/good_job"
+                android:text="@string/good_job"
+                android:layout_alignParentLeft="true"
+                style="@style/comment_radio_btn.left"/>
+            <RadioButton
+                android:id="@+id/no_good_job"
+                android:text="@string/no_good_job"
+                android:layout_alignParentRight="true"
+                style="@style/comment_radio_btn.right"/>
+
+        </RelativeLayout>
+
+        <RelativeLayout
+            style="@style/comment_radio_group"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" >
+
+            <RadioButton
+                android:id="@+id/friendly"
+                android:text="@string/friendly"
+                android:layout_alignParentLeft="true"
+                style="@style/comment_radio_btn.left"/>
+            <RadioButton
+                android:id="@+id/no_friendly"
+                android:text="@string/no_friendly"
+                android:layout_alignParentRight="true"
+                style="@style/comment_radio_btn.right"/>
+
+        </RelativeLayout>
+
+        <RelativeLayout
+            style="@style/comment_radio_group"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" >
+
+            <RadioButton
+                android:id="@+id/skilled"
+                android:text="@string/skilled"
+                android:layout_alignParentLeft="true"
+                style="@style/comment_radio_btn.left"/>
+            <RadioButton
+                android:id="@+id/no_skilled"
+                android:text="@string/no_skilled"
+                android:layout_alignParentRight="true"
+                style="@style/comment_radio_btn.right"/>
+
+        </RelativeLayout>
+
+        <EditText
+            android:id="@+id/content"
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:background="@drawable/time_bg_normal"
+            android:gravity="top"
+            android:hint="@string/hint_comment_text"
+            android:textColor="@color/dark_gray"
+            android:textSize="16sp"
+            android:layout_marginTop="14dp"/>
+
+
+
+    </LinearLayout>
+
+
+</LinearLayout>

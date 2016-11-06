@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="cleaning_service_types">
+        <item>日常保洁</item>
+        <item>深度清洁</item>
+        <item>真皮沙发保养</item>
+        <item>地板打蜡</item>
+        <item>油烟机清洗</item>
+    </string-array>
+
+    <string-array name="cleaning_service_descriptions">
+        <item>适用于打扫厨房、卫生间、卧室、客厅阳台、门窗清洗</item>
+        <item>适用于装修后或7天以上无人居住房屋的深度清洁</item>
+        <item>适用于真皮沙发清洗、杀菌、上光、防干裂、打蜡养护</item>
+        <item>适用于木质地板防划伤、防干裂、防潮打蜡养护</item>
+        <item>适用于油烟机内部油垢的深度清洁</item>
+    </string-array>
+
+    <string-array name="cleaning_service_explain">
+        <item>指房屋的一般清洁工作，包括打扫厨房、卫生间、卧室、客厅、阳台、门窗清洗等</item>
+        <item>适用于装修后或7天以上无人居住房屋的深度清洁</item>
+        <item>适用于真皮沙发清洗、杀菌、上光、防干裂、打蜡养护</item>
+        <item>适用于木质地板防划伤、防干裂、防潮打蜡养护</item>
+        <item>适用于油烟机内部油垢的深度清洁</item>
+    </string-array>
+
+    <string-array name="cleaning_service_price">
+        <item>3小时起，35元/小时（含擦玻璃、清洁剂）</item>
+        <item>3小时起，45元/小时</item>
+        <item>5座起，180元/5座，加座：36元/座</item>
+        <item>20平方起，5元/平方</item>
+        <item>100元/台</item>
+    </string-array>
+
+    <string-array name="day_of_week">
+        <item>周日</item>
+        <item>周一</item>
+        <item>周二</item>
+        <item>周三</item>
+        <item>周四</item>
+        <item>周五</item>
+        <item>周六</item>
+    </string-array>
+
+    <string-array name="day_offset">
+        <item>明天</item>
+        <item>后天</item>
+    </string-array>
+
+    <string-array name="square_selection">
+        <item>80平\n以下</item>
+        <item>80~\n120平</item>
+        <item>120~\n150平</item>
+        <item>150平\n以上</item>
+        <item>自己选</item>
+    </string-array>
+
+    <integer-array name="service_duration">
+        <item>3</item>
+        <item>4</item>
+        <item>3</item>
+        <item>4</item>
+        <item>3</item>
+    </integer-array>
+
+    <integer-array name="servant_count">
+        <item>1</item>
+        <item>1</item>
+        <item>2</item>
+        <item>2</item>
+        <item>1</item>
+    </integer-array>
+
+    <string-array name="schedule_time">
+        <item>7:00</item>
+        <item>7:30</item>
+        <item>8:00</item>
+        <item>8:30</item>
+        <item>9:00</item>
+        <item>12:00</item>
+        <item>12:30</item>
+        <item>13:00</item>
+        <item>13:30</item>
+        <item>14:00</item>
+    </string-array>
+
+    <string-array name="schedule_time_hood">
+        <item>8:00</item>
+        <item>10:00</item>
+        <item>12:00</item>
+        <item>14:00</item>
+    </string-array>
+
+    <string-array name="service_phone_number">
+        <item>0571-88866666</item>//搬家服务
+        <item>0571-88866666</item>//管道疏通
+        <item>0571-88866666</item>//维修服务
+        <item>0571-88883333</item>//母婴护理
+        <item>0571-88883333</item>//育儿服务
+        <item>0571-88989999</item>//家务助理
+        <item>0571-88989999</item>//养老服务
+        <item>0571-88989999</item>//病患护理
+    </string-array>
+</resources>

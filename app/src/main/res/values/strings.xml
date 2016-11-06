@@ -1,0 +1,277 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">三替好生活</string>
+    <string name="hangzhou">杭州</string>
+    <string name="current_action">当前活动</string>
+    <string name="cleaning_service">保洁服务</string>
+    <string name="move_house_service">搬家服务</string>
+    <string name="aged_service">养老护理</string>
+    <string name="sickness_service">病患护理</string>
+    <string name="repair_service">维修服务</string>
+    <string name="pipe_service">管道疏通</string>
+    <string name="child_rearing_service">育儿服务</string>
+    <string name="baby_care_service">母婴护理</string>
+    <string name="housekeeping_service">家务助理</string>
+    <string name="confirm">确定</string>
+    <string name="affirm">确认</string>
+    <string name="modify">修改</string>
+    <string name="delete">删除</string>
+    <string name="submit">提交</string>
+    <string name="call_text">预约%1$s，请拨打</string>
+    <string name="call">呼出</string>
+    <string name="update_new_version">有新版本%1$s可用, 是否立即下载?</string>
+    <string name="q_and_a">常见问题</string>
+    <string name="coupon">优惠券</string>
+    <string name="hint_input_coupon">请输入邀请码或优惠码</string>
+    <string name="exchange">兑换</string>
+    <string name="share_coupon">分享你的邀请码</string>
+    <string name="share_coupon_semi">分享你的邀请码:</string>
+    <string name="coupon_value">￥%1$d</string>
+    <string name="coupon_expire_date">%1$s--%2$s</string>
+    <string name="coupon_expire_left">还有%1$d天过期</string>
+    <string name="coupon_expired">已结束</string>
+    <string name="coupon_used">已使用</string>
+    <string name="invite_friend">邀请好友</string>
+    <string name="my_invitation_code">我的邀请码</string>
+    <string name="share_and_get">分享邀请码获得优惠</string>
+    <string name="share_my_invitation_code">分享我的邀请码</string>
+    <string name="invitation_share_content">亲爱的，使用我的三替好生活的邀请码%1$s吧，可获得高达￥50的服务优惠券。请下载三替好生活APP兑换邀请码，下载地址：http://www.3tlife.cn/app.html</string>
+    <string name="coupon_available_count">%1$d张可用</string>
+    <string name="coupon_use">使用%1$d元优惠券</string>
+    <string name="coupon_exchange_success">您已成功兑换优惠券</string>
+    <string name="coupon_discount">（已优惠%1$d元）</string>
+    <string name="pay_free">确认支付</string>
+
+    <!-- 登录注册 -->
+    <string name="login">登录</string>
+    <string name="register">注册</string>
+    <string name="hint_account">请输入您的手机号码</string>
+    <string name="hint_password">请输入密码</string>
+    <string name="hint_confirm_password">确认密码</string>
+    <string name="hint_import_new_pd">请输入新密码</string>
+    <string name="confirm_to_modify_password">确认修改密码？</string>
+    <string name="hint_verify_code">请输入验证码</string>
+    <string name="forget_password"><u>忘记密码？</u></string>
+    <string name="login_wait">正在登陆，请稍后</string>
+    <string name="get_verify_code">获取验证码</string>
+    <string name="get_verify_code_again">重新获取</string>
+    <string name="read_agree">已阅读并同意</string>
+    <string name="user_agreement">《用户协议》</string>
+    <string name="eula">用户协议</string>
+    <string name="next">下一步</string>
+    <string name="second_counter">%1$ds</string>
+    <string name="set_password">设置密码</string>
+    <string name="get_password">找回密码</string>
+    <string name="cancel">取消</string>
+    <string name="accomplish">完成</string>
+    <string name="user_agreement_content">
+<b>1、前言</b>\n欢迎您使用三替好生活（以下简称“3TLIFE”或者“我们”）信息平台，本用户协议中的条款和条件（以下简称“用户协议”）适用于您登录、访问我们的3TLIFE信息平台，如网站（www.3tlife.cn）、WAP站点、下载应用程序（如Android 版本、ios版本、其他智能手机及终端移动设备应用版本）、通过官方客服电话、支付宝服务窗、微信平台等渠道使用3TLIFE提供的服务，以及我们向您提供的所有信息、建议、其他相关服务。\n在您使用我们的服务前，请您仔细阅读本《用户协议》，您的使用行为将被视为对本《用户协议》全部内容的认可。如果您不同意本《用户协议》下的任何一款内容，请立即停止上述操作行为及使用我们的服务。\n<b>2、服务</b>\n（1）您可以通过3TLIFE信息平台预约平台上提供的家政服务，您可以通过以下途径进行预约：如登录3TLIFE网站、下载并安装3TLIFE软件应用程序、访问WAP站点、登录微信平台、登录支付宝服务窗等。\n（2）3TLIFE信息平台上可供您选择并预约的服务类型有以下九类：保洁服务、家务助理、育儿服务、母婴护理、养老护理、病患护理、搬家服务、维修服务、管道疏通，具体以您登录预约服务页面时最新展示的服务类型为准。\n（3）我们与家政服务商是合作关系，不具有任何法律上及事实上的劳动关系、雇佣关系。家政服务商作为第三方，通过我们向您展示其服务信息，来获取您的预约信息，以及向您收取服务费用或通过我们向您收取服务费用。\n（4）您充分理解并承认该事实：您通过我们来预约家政服务商的服务，而您与家政服务商之间产生的一切纠纷和矛盾，我们会竭尽所能帮助协调，但3TLIFE不承担任何损害赔偿责任及任何责任确定和分担义务。\n<b>3、3TLIFE信息平台的使用</b>\n（1）使用条件：\nA、您应当具有完全民事行为能力，能独立承担法律责任。若您属于年龄不满18周岁的未成年人、精神病人或其他无民事行为能力人、限制民事行为能力人，您应在您监护人的监护下使用3TLIFE信息平台及相应服务。如果您是代表法人及其他合法组织注册账户，您应获得法人或其他合法组织的授权，并约束法人及其他组织遵守本用户协议，以及注册和使用服务。\nB、注册时，您需提供手机号码，根据3TLIFE信息平台系统操作提示验证您的手机号码后，设置固定密码、提供相关个人信息。\n（2）保证及承诺\nA、您保证向我们提供的信息真实、准确。我们在任何时候都有权验证您所提供的信息，并有权在确定您提供的信息不真实后，拒绝您使用我们的服务。\nB、您的使用行为将视为同意以下条款：\n（a）您使用3TLIFE信息平台是用于个人用途，不得转让、出售。\n（b）您不会在3TLIFE信息平台上做出任何非法行为，如发送、储存任何非法资料及欺诈他人。\n（c）您不会危害3TLIFE信息平台，不会影响网络的正常运行。\n（d）您会配合我们的合理请求，在必要的情况下出示您的身份证明。\n（e）您必须遵守使用3TLIFE信息平台或服务时所处国家、地区、省、市的所有适用法律及中华人民共和国法律法规，不违反社会道德、公共秩序及风俗习惯。\n（f）如果您违反以上任一条款，我们保留立即终止服务的权利。\nC、您保证将妥善保管在3TLIFE信息平台设置的账户和密码，不得将其泄露或者提供给任何第三方，否则，由此给您造成的损失及风险由您自行承担。如您无法提供相关的有效证据，您账户下的一切使用及操作行为均视为您个人所为。\n(3)服务订单\nA、您按照操作步骤，成功预约需要的家政服务并确认期望上门服务的时间、地点等信息后，您与所选家政服务商的服务订单正式成立。\nB、如所选家政服务商无法按约履行，我们会及时与您联系并在获得您的许可后重新改派其他家政服务商或者为您取消、变更服务订单。\nC、如订单因您个人的原因无法履行，请您在客服人员接单前在3TLIFE信息平台上取消订单；如果客服人员已接单，请提前1天拨打官方客服电话取消、更改服务订单。如您多次无故或多次在临近服务时间开始前取消服务订单，为保障家政服务商的权益及其他用户方的权益，3TLIFE有权随时暂停或者终止为您提供信息服务。\nD、我们会因用户的需求以及3TLIFE信息平台业务发展的需要改进、更改服务，所以可能会在未经通知您的情况下升级、更改、暂停或彻底停止某项服务类型。\n（4）价格及支付\nA、您可以通过我们支持的各种官方渠道（3TLIFE网站、3TLIFE支持版本的应用程序软件、3TLIFE官方客服电话、3TLIFE微信平台、3TLIFE支付宝服务窗等）查看、了解各种服务的价格，这些价格由3TLIFE及家政服务商统一制定，这些价格可能会进行更新，您需自行留意家政服务的最新价格。\nB、我们采用线上线下多种支付渠道，让您方便快捷支付。与支付宝、银联等权威支付平台进行战略合作，确保支付安全。\n（5）评价服务\nA、您可在3TLIFE信息平台对家政服务商做出针对服务的相应评价、意见或者建议，以供家政服务商提升服务质量，进而提升3TLIFE信息平台的用户体验。\nB、您有权在3TLIFE信息平台发表评论意见、建议及相关言论，但不得出现以下违法行为：\n（a）利用3TLIFE信息平台发布违反国家相关法律、法规及其他规范性文件的信息或从事其他违法犯罪行为；（b）发布含有非法、淫秽、威胁、诽谤、侵犯他人隐私、侵犯知识产权等信息，或以其他形式侵犯第三方的合法权益，违反社会公德。（c）发布与3TLIFE信息平台无关的言论经警告后继续发布，且情节严重的；（d）利用在3TLIFE注册的账号进行其他经营活动或行为；（e）其他损害3TLIFE信息平台合法权益及影响其他用户利益的行为；\nC、如果您出现上述违法行为，3TLIFE有权不事先通知，直接采取屏蔽、删除您的评论、暂停、终止您继续使用评论功能或者永久关闭您的账号。\nD、您一旦在3TLIFE信息平台上发布评论，其著作权即视为无偿独家转让给3TLIFE所有，3TLIFE有权就任何主体侵权单独提起诉讼并获得全部赔偿。\n<b>4、信息处理</b>\n（1）我们承诺通过最大努力保护您在3TLIFE信息平台上的信息安全，如防止您个人资料丢失、阻止个人信息被非法处理，但不能保证您提供的信息在互联网上传输时不会被拦截。\n（2）您授权我们收集及处理您的个人信息，用于以下几个用途：\nA、用于3TLIFE信息平台改进技术、优化功能。\nB、提升您的用户体验：如将您的信息提供给您已预约的家政服务商，以便家政服务商及时联系您，为您提供上门服务。\nC、以邮件、短信、电话、应用程序软件通知及其他形式，向您推送优惠活动信息，如我们的新闻、特别优惠信息、邀请码等。\nD、利用分析的数据及统计的数据，优化服务。\n<b>5、知识产权及相关权利</b>\n您承认3TLIFE信息平台的所有财产（如企业名称、商标、信息、应用程序软件、硬件及结构），以及3TLIFE信息平台上所包含所有者为第三方的所有财产（如企业名称、商标、信息、应用程序软件、硬件及结构）受国内和国际知识产权和中华人民共和国法律保护，并在未得到我们书面同意前不得转载、发布、销售、电邮或以其他任何形式将该财产（如企业名称、商标、信息、应用程序软件、硬件及结构）或服务转移到第三方。不得对任何资料作商业性利用，不得擅自使用、复制、改变、演绎、衍生创造这些内容 、或者与内容有关的衍生产品。\n<b>6、权利和义务</b>\n（1）权利：\nA、3TLIFE作为一个信息平台，向您提供的服务展示、评价仅供您参考，方便您自行选择适合的服务。但是3TLIFE不对家政服务商所提供的服务质量、服务满意度承担任何担保或连带性责任。\nB、3TLIFE将采取力所能及的合理措施尽量保证信息的真实、准确，但无法确保没有任何错误和遗漏。如您因平台信息的不完整导致的任何损害，3TLIFE不承担任何责任。\nC、您根据自身需求自愿选择并使用3TLIFE信息平台及其服务，使用时所存在的一切风险和后果将完全由您自己承担，3TLIFE不承担任何责任。\nD、虽然我们已经对3TLIFE信息平台进行谨慎细致的测试，但是不能保证其能与所有的软硬件系统完美兼容。若您遇到不能正常使用的状况，请将情况报告给我们，我们将及时解决您的问题。\n（2）任何情况下，3TLIFE对任何损失的赔偿不超过单笔订单的金额，除非是因为3TLIFE的故意或者重大过失引起的损失。\n（3）为了提升用户体验，3TLIFE将监督及督促家政服务商提高服务技能、服务态度及服务质量。我们接受您的意见和建议，协助您与家政服务商充分协商。\n（4）如您违反本协议规定，并对3TLIFE造成损害的，我们有权采取措施追究您的法律责任、要求您进行损害赔偿。\n<b>7、协议的修订、终止及转让</b>\n（1）3TLIFE有权随时对本协议的内容和条款进行修订，修订后将在3TLIFE信息平台的显著位置发布公告。如用户继续使用3TLIFE提供的服务即视为同意该内容的修订，请用户在使用服务前仔细查看阅读信息平台的公告。\n（2）您若违反本协议约定，我们将有权终止服务并向您追究违约责任。\n（3）3TLIFE有权将本协议各项权利与义务转让给第三方，无需用户同意。\n<b>8、法律适用及管辖</b>\n（1）本协议的订立、修订、解释、履行及争议的解决均适用于中华人民共和国法律、法规。您与3TLIFE之间发生的任何争议均应友好协商解决，协商不成的，任何一方可提交杭州市西湖区人民法院诉讼解决。\n（2）3TLIFE在法律允许最大范围内对本协议拥有解释权和修改权。
+</string>
+
+    <!-- 错误提示 -->
+    <string name="error_account_password">账号或密码错误，请重新输入。</string>
+    <string name="error_account_empty">请输入手机号码</string>
+    <string name="error_password_empty">请输入密码</string>
+    <string name="error_confirm_password_empty">请确认密码</string>
+    <string name="error_verify_code_empty">请输入验证码</string>
+    <string name="error_account_already_exist">该手机号码已注册</string>
+    <string name="error_verify_code">验证码错误</string>
+    <string name="error_agreement">请阅读用户协议</string>
+    <string name="error_password_not_match">密码输入不一致</string>
+    <string name="error_account_format">手机号输入错误</string>
+    <string name="error_detail_address_empty">请输入详细地址</string>
+    <string name="error_password_length">密码长度必须在6到16位之间</string>
+    <string name="error_feedback_empty">请输入您的意见</string>
+    <string name="error_address_empty">请输入服务地址</string>
+    <string name="error_time_empty">请选择服务时间</string>
+    <string name="error_phone_empty">请输入联系电话</string>
+    <string name="error_phone_format">请输入正确的联系电话</string>
+
+    <!-- 个人中心侧边栏 -->
+    <string name="user_info">个人信息</string>
+    <string name="order_management">订单管理</string>
+    <string name="address_management">地址管理</string>
+    <string name="share">分享</string>
+    <string name="advice_feedback">意见反馈</string>
+    <string name="about_us">关于我们</string>
+
+    <!-- 个人信息页面 -->
+    <string name="nick_name">昵 称</string>
+    <string name="gender">性 别</string>
+    <string name="email">邮 箱</string>
+    <string name="telephone_number">手机号码</string>
+    <string name="modify_password">修改密码</string>
+    <string name="logout">退出登录</string>
+    <string name="not_login">未登录</string>
+
+
+    <!-- 保洁服务 -->
+    <string name="suffix_price_per_hour_least">元/小时起</string>
+    <string name="suffix_price_least">元起</string>
+    <string name="cleaning_service_normal">日常保洁</string>
+    <string name="cleaning_service_deep">深度清洁</string>
+    <string name="cleaning_service_sofa">真皮沙发保养</string>
+    <string name="cleaning_service_sofa_two">真皮沙发\n&#160;&#160;&#160;&#160;保养</string>
+    <string name="cleaning_service_floor">地板打蜡</string>
+    <string name="cleaning_service_range_hood">油烟机清洗</string>
+    <string name="cleaning_service_range_hood_two">油烟机\n&#160;&#160;清洗&#160;</string>
+    <string name="hint_address">请输入您的服务地址</string>
+    <string name="hint_time">请选择服务时间</string>
+    <string name="hint_phone">联系电话</string>
+    <string name="hint_comment">备注</string>
+    <string name="hint_floor">面积/平方</string>
+    <string name="hint_floor_semi">面积/平方:</string>
+    <string name="hint_sofa">沙发数/座</string>
+    <string name="hint_sofa_semi">沙发数/座:</string>
+    <string name="service_duration">服务时长</string>
+    <string name="service_servant_number">服务人数</string>
+    <string name="service_duration_semi">服务时长:</string>
+    <string name="service_years_semi">服务年限:</string>
+    <string name="rating">用户评分:</string>
+    <string name="map">地图</string>
+    <string name="list">列表</string>
+    <string name="service_staff">服务人员</string>
+    <string name="service_staff_semi">服务人员:</string>
+    <string name="hint_address_name">请输入小区名</string>
+    <string name="search">搜索</string>
+    <string name="choose_staff">选择服务人员(默认系统推荐服务人员)</string>
+    <string name="choose_staff_hint">所选人员无法服务时,同意更换其他服务人员</string>
+    <string name="distance_placeholder">%1$.2f公里</string>
+    <string name="aunt_count_placeholder">%1$s人</string>
+    <string name="confirm_submit_order">确定提交本次订单吗?</string>
+    <string name="order_submit_success">订单提交成功</string>
+    <string name="price_normal_clean">3小时起，35元/小时（含擦玻璃、清洁剂）</string>
+    <string name="price_deep_clean">3小时起，45元/小时</string>
+    <string name="price_sofa">5座起，180元/5座，加座：36元/座</string>
+    <string name="price_floor">20平方起，5元/平方</string>
+    <string name="price_hood">100元/台</string>
+    <string name="app_web_site">http://www.3tlife.cn/app.html</string>
+
+    <!-- 地址管理 -->
+    <string name="add_new_address">添加新地址</string>
+    <string name="modify_address">修改地址</string>
+    <string name="affirm_add">确认添加</string>
+    <string name="hint_add_plot_name">请输入小区名</string>
+    <string name="hint_detail_address">详细地址，如6号楼6单元666室</string>
+    <string name="set_as_default_address">设为默认地址</string>
+    <string name="affirm_to_modify_address">确认修改地址？</string>
+    <string name="affirm_to_delete_address">确认删除地址？</string>
+    <string name="add_address_success">添加地址成功</string>
+    <!-- 分享 -->
+    <string name="share_firend">朋友圈</string>
+    <string name="share_wechat">微信</string>
+    <string name="share_weibo">新浪微博</string>
+    <string name="share_qq">QQ</string>
+    <string name="share_prompt">把三替好生活分享给好友</string>
+    <string name="userinfo_share_content">享受品质生活，使用三替好生活APP。提供全杭州一流的保洁服务，方便快捷。APP下载地址：http://www.3tlife.cn/app.html</string>
+    <string name="staff_detail_share_content">亲，%1$s阿姨为我家服务过，她专业技能强，清扫干净，性格随和，推荐给你哦。%2$s阿姨在这里：http://www.3tlife.cn/app.html</string>
+    <!-- 意见反馈 -->
+    <string name="hint_advice_feedback">请输入您的宝贵意见，我们会尽快改进！（限200字）</string>
+    <string name="submit_success">提交成功</string>
+    <!-- 关于我们 -->
+    <string name="version_name">版本号V</string>
+    <string name="wechat_public_account">微信公众号</string>
+    <string name="official_website">官方网址</string>
+    <string name="official_website_url">www.3tlife.cn</string>
+    <string name="service_tel">客服电话</string>
+    <string name="service_tel_number">0571-89812518</string>
+    <!-- 订单管理 -->
+    <string name="in_progress">进行中</string>
+    <string name="finished">已完成</string>
+    <string name="no_order">还没有订单，快去预约吧！</string>
+    <string name="comments">评价</string>
+    <string name="comment_finish">已评价</string>
+    <string name="order_again">再次预约</string>
+    <string name="pull_down_to_refresh">下拉刷新···</string>
+    <string name="loosen_to_refresh">松开更新···</string>
+    <string name="hard_loading">努力加载中···</string>
+    <string name="pull_up_to_refresh">上拉刷新···</string>
+    <string name="loosen_to_load_more">松开加载更多···</string>
+    <string name="order_detail">订单详情</string>
+    <string name="order_content">订单内容</string>
+    <string name="order_state_semi">订单状态:</string>
+    <string name="order_id_semi">订单编号:</string>
+    <string name="service_address_semi">服务地址:</string>
+    <string name="service_time_semi">服务时间:</string>
+    <string name="service_price_semi">金额:</string>
+    <string name="price_format">%1$.2f元</string>
+    <string name="basic_infomation">基本信息</string>
+    <string name="phone_semi">联系电话:</string>
+    <string name="contacter_semi">联系人:</string>
+    <string name="comment_semi">备注:</string>
+    <string name="cancel_order">取消订单</string>
+    <string name="affirm_to_cancel_order">确认取消本次订单吗？</string>
+    <string name="cancel_order_success">取消订单成功</string>
+    <string name="call_service_number">呼出服务电话</string>
+    <string name="affirm_to_cancel_order_with_staff">客服人员正在处理您的订单，如需要取消本次订单，请电话联系客服人员。</string>
+    <string name="pay_amount">支付金额</string>
+    <string name="pay">付款</string>
+    <string name="pay_by_zhifubao">支付宝付款</string>
+    <string name="service_year">%1$d年</string>
+    <string name="order_hour_float">%1$.1f小时</string>
+    <string name="order_hour">%1$d小时</string>
+    <string name="pay_success">支付成功</string>
+    <string name="pay_inProgress">支付结果确认中</string>
+    <string name="pay_fail">支付失败</string>
+
+    <!--服务人员详情-->
+    <string name="staff_detail">服务人员详情</string>
+    <string name="my_leisure_time">我可预约的时间</string>
+    <string name="user_grade">用户评分</string>
+    
+    <!--评价-->
+    <string name="good">很好</string>
+    <string name="bad">不好</string>
+    <string name="on_time">准时到达</string>
+    <string name="no_on_time">迟到很久</string>
+    <string name="earnest">仔细认真</string>
+    <string name="no_earnest">应付了事</string>
+    <string name="good_job">手脚利落</string>
+    <string name="no_good_job">做事拖沓</string>
+    <string name="friendly">态度友好</string>
+    <string name="no_friendly">态度恶劣</string>
+    <string name="skilled">技能娴熟</string>
+    <string name="no_skilled">技能生疏</string>
+    <string name="hint_comment_text">写点什么吧，您的意见对其他用户有很大帮助！</string>
+    <string name="comment_success">评价成功</string>
+
+    <string name="order_state_new">等待接单</string>
+    <string name="order_state_cancel">已取消</string>
+    <string name="order_state_confirm">已接单</string>
+    <string name="order_state_service_start">服务进行中</string>
+    <string name="order_state_service_finish">等待付款</string>
+    <string name="order_state_finish">服务结束</string>
+    <string name="order_state_paid">支付成功</string>
+
+    <!--服务说明-->
+    <string name="service_info">服务说明</string>
+    <string name="service_info_semi">服务说明：</string>
+    <string name="cleaning_service_explain">专注居室清洁，净化生活环境</string>
+    <string name="price_reference">价格参考</string>
+    <string name="price_normal_clean_2">3小时起，35元/小时\n（含擦玻璃、清洁剂）</string>
+    <string name="price_sofa_2">5座起，180元/5座\n加座：36元/座</string>
+    <string name="info_normal_clean">指房屋的一般清洁工作，包括打扫厨房、卫生间、卧室、客厅、阳台、门窗清洗等</string>
+    <string name="info_deep_clean">适用于装修后或7天以上无人居住房屋的深度清洁</string>
+    <string name="info_sofa">适用于真皮沙发清洗、杀菌、上光、防干裂、打蜡养护</string>
+    <string name="info_floor">适用于木质地板防划伤、防干裂、防潮打蜡养护</string>
+    <string name="info_hood">适用于油烟机内部油垢的深度清洁</string>
+    <string name="service_reference">服务时间选择参考</string>
+    <string name="square_below_80">80平方米以下:</string>
+    <string name="square_between_80_and_120">80-120平方米:</string>
+    <string name="square_between_120_and_150">120-150平方米:</string>
+    <string name="square_above_150">150平方米以上:</string>
+    <string name="square_below_80_ref">服务时长3小时,服务人员1人;</string>
+    <string name="square_between_80_and_120_ref">服务时长4小时,服务人员1人;</string>
+    <string name="square_between_120_and_150_ref">服务时长3小时,服务人员2人;</string>
+    <string name="square_above_150_ref">服务时长4小时,服务人员2人;</string>
+
+    <!--活动详情-->
+    <string name="activity_detail">活动详情</string>
+    <string name="service_type_semi">服务项目:</string>
+    <string name="activity_explain_semi">活动说明:</string>
+    <string name="join_way_semi">参与方式:</string>
+    <string name="activity_deadline_semi">活动期限:</string>
+    <string name="order_right_now">马上预约</string>
+    <string name="final_explain">本活动的最终解释权归三替好生活平台所有。</string>
+    <string name="activity_explain_detail">本活动仅限于在活动时间内前两单，并使用APP在线支付的客户，第三方回复评价。</string>
+</resources>

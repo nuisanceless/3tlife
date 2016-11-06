@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content">
+
+    <ImageView
+        android:id="@+id/icon"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        />
+        <!--android:src="@drawable/move_service_main_activity"-->
+
+    <TextView
+        android:id="@+id/name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="56dp"
+        android:text="@string/move_house_service"
+        android:textColor="@color/black"
+        android:textSize="13sp"/>
+
+    <View
+        android:layout_width="17dp"
+        android:layout_height="1dp"
+        android:layout_toRightOf="@+id/icon"/>
+
+</RelativeLayout>

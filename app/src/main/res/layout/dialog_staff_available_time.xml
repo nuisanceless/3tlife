@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@drawable/common_confirm_dialog_bg">
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="45dp"
+        android:paddingLeft="14dp"
+        android:paddingRight="14dp"
+        android:text="@string/my_leisure_time"
+        android:textColor="@color/light_gray"
+        android:textSize="16sp"
+        android:gravity="center_vertical"
+        />
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/edit_divider"/>
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="50dp">
+        <ImageView
+            android:id="@+id/arrow_pre"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="14dp"
+            android:layout_marginRight="14dp"
+            android:src="@drawable/arrow_pre"/>
+        <ImageView
+            android:id="@+id/arrow_next"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="14dp"
+            android:layout_marginRight="14dp"
+            android:src="@drawable/arrow_next"/>
+
+        <cn.life3t.life3t.common.HorizontalListView
+            android:id="@+id/list"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_toRightOf="@id/arrow_pre"
+            android:layout_toLeftOf="@id/arrow_next"
+            />
+    </RelativeLayout>
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/edit_divider"/>
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="197dp">
+        <GridView
+            android:id="@+id/grid"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:paddingTop="20dp"
+            android:paddingBottom="20dp"
+            android:paddingLeft="14dp"
+            android:paddingRight="14dp"
+            android:numColumns="4"
+            android:verticalSpacing="14dp"
+            android:horizontalSpacing="14dp"
+            android:listSelector="@android:color/transparent"/>
+        <ProgressBar
+            android:id="@+id/progress"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:indeterminate="true"/>
+        </RelativeLayout>
+
+</LinearLayout>

@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/activity_bgcolor">
+
+    <cn.life3t.life3t.common.CommonTitle_
+        android:id="@+id/common_title"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:title_text="@string/add_new_address"
+        app:enable_back="@drawable/btn_back"
+        />
+
+    <LinearLayout
+        android:id="@+id/address_layout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:minHeight="50dp"
+        android:layout_marginTop="14dp"
+        android:background="@drawable/edit_top"
+        >
+
+        <TextView
+            android:id="@+id/street"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:hint="@string/hint_address_name"
+            android:textSize="16sp"
+            android:textColor="@color/dark_gray"
+            android:layout_margin="14dp"
+            android:layout_gravity="center_vertical"
+            />
+
+
+        <ImageView
+            android:id="@+id/arrow"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="14dp"
+            android:layout_gravity="center_vertical"
+            android:src="@drawable/right_arrow_light_gray"
+            />
+
+    </LinearLayout>
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/edit_divider"/>
+
+    <cn.life3t.life3t.common.ClearEditText
+        android:id="@+id/detail"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:background="@drawable/edit_bottom"
+        android:paddingLeft="14dp"
+        android:paddingRight="14dp"
+        android:textSize="16sp"
+        android:textColor="@color/dark_gray"
+        android:hint="@string/hint_detail_address"
+        />
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:paddingRight="14dp">
+
+        <CheckBox
+            android:id="@+id/if_default"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            style="@style/MyCheckBox"
+            android:layout_alignParentRight="true"
+            android:text="@string/set_as_default_address"
+            android:textSize="16sp"
+            android:textColor="@android:color/darker_gray" />
+
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1">
+
+    </RelativeLayout>
+
+    <TextView
+        android:id="@+id/affirm"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_margin="14dp"
+        android:background="@drawable/btn_confirm_selector"
+        android:gravity="center"
+        android:text="@string/affirm_add"
+        android:textColor="@android:color/white"
+        android:textSize="18sp"
+        />
+
+</LinearLayout>

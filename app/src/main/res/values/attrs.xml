@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <attr name="title_text" format="string" />
+    <attr name="image" format="reference" />
+    <attr name="content_text" format="string" />
+    <attr name="content_hint" format="string" />
+
+    <declare-styleable name="CommonTitle">
+        <attr name="title_img" format="reference" />
+        <attr name="title_text" />
+        <attr name="enable_back" format="reference"/>
+        <attr name="location_btn_text" format="string"/>
+        <attr name="custom_btn_bg" format="reference" />
+        <attr name="custom_btn_text" format="string"/>
+        <attr name="bg_color" format="color"/>
+        <attr name="bg_img" format="reference"/>
+    </declare-styleable>
+
+    <declare-styleable name="ServiceItemView">
+        <attr name="image" />
+        <attr name="title_text" />
+        <attr name="price" format="string"/>
+        <attr name="price_suffix" format="string"/>
+        <attr name="description" format="string" />
+    </declare-styleable>
+
+    <declare-styleable name="ImageTextArrowView">
+        <attr name="image"/>
+        <attr name="content_text" />
+        <attr name="content_hint" />
+    </declare-styleable>
+
+    <declare-styleable name="ImageEditView">
+        <attr name="image"/>
+        <attr name="content_text" />
+        <attr name="content_hint" />
+    </declare-styleable>
+
+    <!--订单详情里面信息分类的title view-->
+    <declare-styleable name="InfoClassifyTitleTextView">
+        <attr name="text" format="string"/>
+        <attr name="textColor" format = "color" />
+    </declare-styleable>
+
+    <!--订单详情里面每一条信息的-->
+    <declare-styleable name="InfoItemView">
+        <attr name="image" />
+        <attr name="type_text" format="string" />
+        <attr name="content_text" />
+        <attr name="content_color" format="color" />
+        <attr name="content_gravity" >
+            <enum name="right" value="0" />
+            <enum name="left" value="1" />
+            <enum name="center" value="2" />
+        </attr>
+    </declare-styleable>
+
+    <!--服务人员信息的试图-->
+    <declare-styleable name="StaffInfoItemView">
+        <attr name="arrow" format="reference" />
+    </declare-styleable>
+
+    <declare-styleable name="ImageEditNumericView">
+        <attr name="image"/>
+        <attr name="content_text" />
+        <attr name="content_hint" />
+    </declare-styleable>
+</resources>

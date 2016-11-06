@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="90dp"
+    android:background="@drawable/service_item_bg">
+    <ImageView
+        android:id="@+id/service_item_image"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:layout_margin="20dp"
+        android:layout_alignParentLeft="true"/>
+    <ImageView
+        android:id="@+id/arrow"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_centerVertical="true"
+        android:padding="10dp"
+        android:src="@drawable/right_arrow_light_gray"/>
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerVertical="true"
+        android:layout_toRightOf="@id/service_item_image"
+        android:layout_toLeftOf="@id/arrow">
+        <TextView
+            android:id="@+id/service_item_title"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:textSize="16sp"
+            android:textColor="@color/dark_gray"/>
+
+        <TextView
+            android:id="@+id/service_item_price_suffix"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_alignTop="@id/service_item_title"
+            android:textSize="16sp"
+            android:textColor="@color/dark_gray"/>
+        <TextView
+            android:id="@+id/service_item_price"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_toLeftOf="@id/service_item_price_suffix"
+            android:layout_alignTop="@id/service_item_title"
+            android:textSize="16sp"
+            android:textColor="@color/orange" />
+        <TextView
+            android:id="@+id/service_item_description"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/service_item_title"
+            android:layout_marginTop="8dp"
+            android:textSize="13sp"
+            android:textColor="@color/gray"
+            android:lineSpacingExtra="3dp"/>
+        </RelativeLayout>
+
+</RelativeLayout>

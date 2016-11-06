@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <include
+        layout="@layout/view_staff_info_in_head" />
+
+    <RelativeLayout
+        android:id="@+id/order_time"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:background="@drawable/edit_bottom"
+        android:gravity="center_vertical">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="14dp"
+            android:text="@string/my_leisure_time"
+            android:textSize="16sp"
+            android:textColor="@color/dark_gray"/>
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/right_arrow_light_gray"
+            android:layout_alignParentRight="true"
+            android:layout_marginRight="14dp"
+            />
+
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_marginTop="14dp"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:background="@drawable/edit_top"
+        android:gravity="center_vertical"
+        android:paddingRight="14dp"
+        android:paddingLeft="14dp">
+
+        <TextView
+            android:id="@+id/userGrade"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/user_grade"
+            android:textSize="16sp"
+            android:textColor="@color/light_gray"/>
+
+        <RatingBar
+            android:id="@+id/ratingBar"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:isIndicator="true"
+            style="@style/my_rating_bar.small"
+            android:layout_marginTop="4dp"
+            android:layout_marginLeft="10dp"
+            android:layout_toRightOf="@+id/userGrade"/>
+
+        <TextView
+            android:id="@+id/evaluateCount"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="(0条)"
+            android:textSize="16sp"
+            android:layout_alignParentRight="true"
+            android:textColor="@color/light_gray"/>
+
+    </RelativeLayout>
+
+</LinearLayout>

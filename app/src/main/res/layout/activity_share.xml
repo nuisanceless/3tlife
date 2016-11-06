@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/activity_bgcolor">
+
+    <cn.life3t.life3t.common.CommonTitle_
+        android:id="@+id/common_title"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:title_text="@string/share"
+        app:enable_back="@drawable/btn_back"
+        />
+
+    <cn.life3t.life3t.common.ShareView_
+        android:layout_marginTop="14dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/share_prompt"
+        android:textSize="16sp"
+        android:layout_margin="14dp"
+        android:textColor="@color/dark_gray"/>
+
+</LinearLayout>

@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:ptr="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/activity_bgcolor">
+
+    <cn.life3t.life3t.common.CommonTitle_
+        android:id="@+id/common_title"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:title_text="@string/service_staff"
+        app:enable_back="@drawable/btn_back"
+        app:custom_btn_text="@string/map"
+        />
+
+    <com.handmark.pulltorefresh.library.PullToRefreshListView
+        android:id="@+id/list"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:divider="@drawable/edit_divider"
+        android:listSelector="@android:color/transparent"
+        ptr:ptrHeaderTextColor="@color/gray"
+        ptr:ptrDrawable="@drawable/pulltorefresh_up_arrow"
+        ptr:ptrAnimationStyle="flip"/>
+</LinearLayout>

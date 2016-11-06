@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="horizontal"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingRight="25dp">
+    
+    <RelativeLayout
+        android:layout_width="30dp"
+        android:layout_height="match_parent">
+        
+        <ImageView
+            android:layout_width="4dp"
+            android:layout_height="20dp"
+            android:background="@color/blue"
+            android:layout_marginTop="3dp"
+            android:layout_centerHorizontal="true"/>
+        
+    </RelativeLayout>
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <TextView
+            android:id="@+id/service_type"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="日常保洁"
+            android:textColor="@color/dark_gray"
+            android:textSize="18sp"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/service_info"
+            android:textSize="16sp"
+            android:textColor="@color/blue"
+            android:layout_marginTop="5dp"
+            android:layout_marginBottom="3dp"/>
+
+
+        <TextView
+            android:id="@+id/explain"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="只房屋的一半清洁工作，包括打扫闻声，厨房，w卧室客厅阳台说明的门窗的凤飞飞"
+            android:textSize="14sp"
+            android:textColor="@color/gray"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/price_reference"
+            android:textSize="16sp"
+            android:textColor="@color/blue"
+            android:layout_marginTop="5dp"
+            android:layout_marginBottom="3dp"/>
+
+        <cn.life3t.life3t.utils.ListViewForScrollView
+            android:id="@+id/price_list"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:divider="@android:color/transparent"
+            android:dividerHeight="2dp"
+            android:listSelector="@android:color/transparent" />
+
+
+    </LinearLayout>
+
+</LinearLayout>

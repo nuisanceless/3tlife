@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+    <TextView
+        android:id="@+id/toast_text"
+        android:layout_width="254dp"
+        android:layout_height="74dp"
+        android:layout_gravity="center"
+        android:background="@drawable/toast_bg"
+        android:gravity="center"
+        android:text="这是一个自定义背景颜色的提示框"
+        android:textColor="@android:color/white"
+        android:textSize="16sp"/>
+    </LinearLayout>

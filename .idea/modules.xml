@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/3tlife.iml" filepath="$PROJECT_DIR$/3tlife.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Android-PullToRefresh-aar/Android-PullToRefresh-aar.iml" filepath="$PROJECT_DIR$/Android-PullToRefresh-aar/Android-PullToRefresh-aar.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Android-ViewPagerIndicator/Android-ViewPagerIndicator.iml" filepath="$PROJECT_DIR$/Android-ViewPagerIndicator/Android-ViewPagerIndicator.iml" />
+      <module fileurl="file://$PROJECT_DIR$/app/app.iml" filepath="$PROJECT_DIR$/app/app.iml" />
+    </modules>
+  </component>
+</project>

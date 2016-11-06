@@ -1,0 +1,10 @@
+[
+    {
+        "merged": "/Users/wuguohao/AndroidWorkspace/3T/Client/user/Android/3tlife/Android-ViewPagerIndicator/build/intermediates/res/merged/androidTest/debug/color/vpi__dark_theme.xml",
+        "source": "/Users/wuguohao/AndroidWorkspace/3T/Client/user/Android/3tlife/Android-ViewPagerIndicator/build/intermediates/bundles/debug/res/color/vpi__dark_theme.xml"
+    },
+    {
+        "merged": "/Users/wuguohao/AndroidWorkspace/3T/Client/user/Android/3tlife/Android-ViewPagerIndicator/build/intermediates/res/merged/androidTest/debug/color/vpi__light_theme.xml",
+        "source": "/Users/wuguohao/AndroidWorkspace/3T/Client/user/Android/3tlife/Android-ViewPagerIndicator/build/intermediates/bundles/debug/res/color/vpi__light_theme.xml"
+    }
+]

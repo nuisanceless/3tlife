@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:fresco="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <cn.life3t.life3t.common.CommonTitle_
+        android:id="@+id/common_title"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:title_text="@string/service_staff"
+        app:enable_back="@drawable/btn_back"
+        app:custom_btn_text="@string/list"
+        />
+
+    <com.baidu.mapapi.map.MapView
+        android:id="@+id/mapView"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@id/common_title"
+        android:clickable="true" />
+
+    <RelativeLayout
+        android:id="@+id/staffInfo"
+        android:layout_width="match_parent"
+        android:layout_height="85dp"
+        android:layout_alignParentBottom="true"
+        android:background="@drawable/ordered">
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:padding="14dp">
+            <com.facebook.drawee.view.SimpleDraweeView
+                android:id="@+id/portrait"
+                android:layout_width="57dp"
+                android:layout_height="57dp"
+                android:layout_marginRight="22dp"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentTop="true"
+                fresco:actualImageScaleType="fitXY"
+                />
+            <ImageView
+                android:id="@+id/verified"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/verified"
+                android:layout_alignTop="@id/portrait"
+                android:layout_alignRight="@id/portrait"/>
+
+            <TextView
+                android:id="@+id/name"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_toRightOf="@id/portrait"
+                android:layout_alignTop="@id/portrait"
+                android:textSize="16sp"
+                android:textColor="@color/dark_gray"/>
+
+            <TextView
+                android:id="@+id/rating"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_toRightOf="@id/portrait"
+                android:layout_alignBottom="@id/portrait"
+                android:layout_marginRight="5dp"
+                android:text="@string/rating"
+                android:textSize="14sp"
+                android:textColor="@color/gray"/>
+
+            <RatingBar
+                android:id="@+id/ratingBar"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:minHeight="14dp"
+                android:maxHeight="14dp"
+                android:layout_toRightOf="@id/rating"
+                android:layout_alignBottom="@id/portrait"
+                android:isIndicator="true"
+                style="@style/my_rating_bar.small"
+                />
+
+            <TextView
+                android:id="@+id/distance"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentRight="true"
+                android:layout_alignBottom="@id/portrait"
+                android:textColor="@color/red"
+                android:textSize="14sp"/>
+
+            <TextView
+                android:id="@+id/duration"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_toRightOf="@id/portrait"
+                android:layout_above="@id/rating"
+                android:layout_marginRight="5dp"
+                android:text="@string/service_duration_semi"
+                android:textSize="14sp"
+                android:textColor="@color/gray" />
+            <TextView
+                android:id="@+id/durationValue"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_toRightOf="@id/duration"
+                android:layout_alignTop="@id/duration"
+                android:textSize="14sp"
+                android:textColor="@color/gray" />
+            <CheckBox
+                android:id="@+id/selected"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentRight="true"
+                android:layout_alignParentTop="true"
+                android:button="@drawable/checkbox_list_item_selector"/>
+        </RelativeLayout>
+
+
+    </RelativeLayout>
+
+</RelativeLayout>

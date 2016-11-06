@@ -1,0 +1,302 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/activity_bgcolor">
+
+    <cn.life3t.life3t.common.CommonTitle_
+        android:id="@+id/common_title"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:title_text="@string/order_detail"
+        app:enable_back="@drawable/btn_back"
+        />
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:scrollbars="none">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            >
+
+            <!--订单内容-->
+            <cn.life3t.life3t.common.InfoClassifyTitleTextView_
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                app:textColor="@color/gray"
+                app:text="@string/order_content"
+                />
+
+            <!--订单类型、状态-->
+            <cn.life3t.life3t.common.InfoItemView_
+                android:id="@+id/order_state"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                app:image="@drawable/order_status"
+                app:type_text="@string/order_state_semi"
+                app:content_color="@color/dark_red"
+                app:content_gravity="right"
+                />
+
+            <!--订单编号-->
+            <cn.life3t.life3t.common.InfoItemView_
+                android:id="@+id/order_number"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                app:image="@drawable/order_state"
+                app:type_text="@string/order_id_semi"
+                app:content_color="@color/dark_gray"
+                app:content_gravity="left"
+                />
+
+            <!--服务地址-->
+            <cn.life3t.life3t.common.InfoItemView_
+                android:id="@+id/order_address"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                app:image="@drawable/address"
+                app:type_text="@string/service_address_semi"
+                app:content_color="@color/light_gray"
+                app:content_gravity="left"
+                />
+
+            <!--服务时间-->
+            <cn.life3t.life3t.common.InfoItemView_
+                android:id="@+id/order_time"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                app:image="@drawable/clock"
+                app:type_text="@string/service_time_semi"
+                app:content_color="@color/light_gray"
+                app:content_gravity="left"
+                />
+
+            <!--服务时长-->
+            <cn.life3t.life3t.common.InfoItemView_
+                android:id="@+id/order_specified"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                app:image="@drawable/calculagraph"
+                app:type_text="@string/service_duration_semi"
+                app:content_color="@color/light_gray"
+                app:content_gravity="left"
+                />
+
+            <!--金额-->
+            <cn.life3t.life3t.common.InfoItemView_
+                android:id="@+id/order_price"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:visibility="gone"
+                app:image="@drawable/price"
+                app:type_text="@string/service_price_semi"
+                app:content_color="@color/light_gray"
+                app:content_gravity="left"
+                />
+
+            <!--阿姨人数-->
+            <cn.life3t.life3t.common.InfoItemView_
+                android:id="@+id/aunt_count"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                app:image="@drawable/staff_count"
+                app:type_text="@string/service_staff_semi"
+                app:content_color="@color/light_gray"
+                app:content_gravity="left"
+                />
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/edit_divider"/>
+
+            <!--服务人员模块-->
+            <LinearLayout
+                android:id="@+id/staff_layout"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <cn.life3t.life3t.utils.ListViewForScrollView
+                    android:id="@+id/staff_list"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:divider="@drawable/edit_divider"
+                    android:background="@drawable/edit_top_bottom"
+                    android:listSelector="@android:color/transparent"/>
+
+
+            </LinearLayout>
+
+
+            <!--基本信息-->
+            <cn.life3t.life3t.common.InfoClassifyTitleTextView_
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                app:textColor="@color/gray"
+                app:text="@string/basic_infomation"
+                />
+
+            <!--联系电话-->
+            <cn.life3t.life3t.common.InfoItemView_
+                android:id="@+id/phone"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                app:image="@drawable/phone"
+                app:type_text="@string/phone_semi"
+                app:content_color="@color/light_gray"
+                app:content_gravity="left"
+                />
+
+            <!--联系人-->
+            <cn.life3t.life3t.common.InfoItemView_
+                android:id="@+id/comment"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                app:image="@drawable/comment"
+                app:type_text="@string/comment_semi"
+                app:content_color="@color/light_gray"
+                app:content_gravity="left"
+                />
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/edit_divider"/>
+
+            <!--等待付款状态下的付款view，默认为gone-->
+            <LinearLayout
+                android:id="@+id/pay_layout"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:visibility="gone"
+                >
+
+                <!--付款-->
+                <cn.life3t.life3t.common.InfoClassifyTitleTextView_
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    app:textColor="@color/gray"
+                    app:text="@string/pay"
+                    />
+
+                <!--支付金额-->
+                <LinearLayout
+                    android:orientation="horizontal"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:minHeight="50dp"
+                    android:gravity="center_vertical"
+                    android:padding="14dp"
+                    android:background="@drawable/edit_top_bottom">
+
+                    <TextView
+                        android:id="@+id/info_item_type_text"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textColor="@color/dark_gray"
+                        android:layout_marginRight="14dp"
+                        android:textSize="16sp"
+                        android:text="@string/pay_amount"/>
+
+                    <ImageView
+                        android:layout_width="wrap_content"
+                        android:layout_height="match_parent"
+                        android:background="@drawable/divider_vertical"/>
+
+                    <TextView
+                        android:id="@+id/money"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="14dp"
+                        android:textColor="@color/blue"
+                        android:textSize="16sp"/>
+                    <TextView
+                        android:id="@+id/discount"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textColor="@color/orange"
+                        android:textSize="16sp"/>
+
+                </LinearLayout>
+
+                <RelativeLayout
+                    android:id="@+id/coupon"
+                    android:layout_width="match_parent"
+                    android:layout_height="50dp"
+                    android:background="@drawable/edit_bottom"
+                    android:padding="14dp">
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="match_parent"
+                        android:layout_alignParentLeft="true"
+                        android:text="@string/coupon"
+                        android:textColor="@color/dark_gray"
+                        android:textSize="16sp"
+                        android:gravity="center_vertical"/>
+                    <ImageView
+                        android:id="@+id/coupon_arrow"
+                        android:layout_width="wrap_content"
+                        android:layout_height="match_parent"
+                        android:layout_centerVertical="true"
+                        android:layout_alignParentRight="true"
+                        android:layout_marginLeft="14dp"
+                        android:src="@drawable/right_arrow_light_gray"/>
+                    <TextView
+                        android:id="@+id/coupon_use"
+                        android:layout_width="wrap_content"
+                        android:layout_height="match_parent"
+                        android:layout_toLeftOf="@id/coupon_arrow"
+                        android:textColor="@color/dark_red"
+                        android:textSize="16sp"
+                        android:gravity="center_vertical"/>
+                    </RelativeLayout>
+
+                <!--支付宝付款按钮-->
+                <TextView
+                    android:id="@+id/pay"
+                    android:layout_width="match_parent"
+                    android:layout_height="50dp"
+                    android:layout_margin="14dp"
+                    android:background="@drawable/btn_selector"
+                    android:gravity="center"
+                    android:text="@string/pay_by_zhifubao"
+                    android:textColor="@android:color/white"
+                    android:textSize="18sp"/>
+
+            </LinearLayout>
+
+            <!--评价，付款，取消订单等操作的按钮-->
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginRight="14dp"
+                android:layout_marginTop="14dp"
+                android:layout_marginBottom="14dp">
+
+                <TextView
+                    android:id="@+id/operation_btn"
+                    android:layout_width="120dp"
+                    android:layout_height="38dp"
+                    android:layout_alignParentRight="true"
+                    android:textSize="16sp"
+                    android:text="@string/cancel_order"
+                    android:textColor="@android:color/white"
+                    android:gravity="center"
+                    android:background="@drawable/btn_selector"
+                    android:visibility="gone"/>
+
+            </RelativeLayout>
+
+        </LinearLayout>
+
+    </ScrollView>
+
+</LinearLayout>
